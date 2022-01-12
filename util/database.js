@@ -5,7 +5,7 @@ const pool = mysql.createPool({
     host: "localhost",
     user: "root",
     password: process.env.DB_PASSWORD,
-    database: "a0521_node_mysql"
+    database: "node-wmad"
 })
 
 module.exports = pool.promise()
